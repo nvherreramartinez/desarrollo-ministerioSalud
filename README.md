@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since Septiembre '80<br>📚 I'm currently learning a Desarrollar sueños<br>🎯 Goals: Adquirir las capacidades necesarias para hacer realidad las ideas de los demás.<br>🎲 Fun fact: Rompi la barrera de los 40 y no me da miedo arrancar de nuevo!</p>
+<p align="left">✨ Creating bugs since Septiembre '80.<br>📚 I'm currently learning a Desarrollar sueños...<br>🎯 Goals: Adquirir las capacidades necesarias para hacer realidad las ideas de los demás.<br>🎲 Fun fact: Rompi la barrera de los 40 y no me da miedo arrancar de nuevo!!</p>
 
 ###
 
