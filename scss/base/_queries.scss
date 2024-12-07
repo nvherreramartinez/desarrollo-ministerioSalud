@@ -1,63 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
-.carousel-indicators [data-bs-target] {
-    background-color: #000;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-}
-
-.carousel-indicators [data-bs-target].active {
-    background-color: #fff;
-    width: 14px;
-    height: 14px;
-}
-
-@media screen and (max-width: 1025px) {
+/* medias queries*/
+@media screen and (max-width: 1100px) {
     header nav div h1 {
+        font-size: 20px;
+    }
+    h2{  
         font-size: 25px;
+        padding: 8px;
     }
     .container-fluid {
         flex-direction: column;
     }
-    .grid-inicio {
+    .index .grid-inicio {
         flex-direction: column;
     }
-    .navbar-nav {
+    header .navbar-nav {
         font-size: 15px;
         font-weight: 200;
     }
-    .btn {
+    .index .grid-inicio .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 .btn {
         font-size: 21px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 20px;
+
+@media screen and (max-width: 768px){
+    header nav div h1 {
+        font-size: 18px;
         font-weight: 700;
     }
-    .grid-inicio {
+    h2{  
+        font-size: 18px;
+        padding: 5px;
+    }
+    .index .grid-inicio {
         grid-template-columns: 1fr 1fr;
     }
-    .grid-item1,
-    .grid-item3,
-    .grid-item4 {
+    .index .grid-inicio .grid-item1, .grid-item3, .grid-item4 {
         grid-column: span 1;
         grid-row: span 1;
     }
-    .grid-inicio div {
+    .index .grid-inicio div {
         position: relative;
     }
-    .portada {
+    .index .portada {
         background-image: url(../img/index.jpg);
         color: black;
         font-size: 15px;
         font-weight: bold;
     }
-    .btn {
+    .index .grid-inicio .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 .btn {
         font-size: 18px;
     }
     footer h4 {
@@ -65,8 +56,8 @@
         font-weight: 500;
     }
     footer div a {
-        font-size: 20px;
-        font-weight: 200;
+        font-size: 12px;
+        font-weight: 180px;
         display: auto;
     }
     footer div a img {
@@ -77,40 +68,32 @@
 }
 
 @media screen and (max-width: 560px) {
-    h1 {
+    header nav div h1 {
         font-size: 12px;
         font-weight: 500;
     }
-
     h2 {
         font-size: 15px;
     }
-
-    .grid-inicio {
+    .index .grid-inicio {
         grid-template-columns: 1fr;
     }
-
-    .btn {
+    .index .grid-inicio .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 .btn {
         font-size: 15px;
     }
-
     footer h4 {
         font-size: 20px;
         font-weight: 100;
     }
-
     footer div a {
         font-size: 10px;
         font-weight: 50;
-        display: auto;
     }
-
     footer div a img {
         width: 30px;
         height: 30px;
-        padding: 5px;
     }
-    .flex-servicios div, .flex-tramites div, .flex-programas div {
+    .services section .flex-servicios div, .flex-tramites div, .flex-programas div {
         width: 300px;
     }
 }
@@ -118,14 +101,15 @@
 @media screen and (max-width: 360px) {
     header nav div h1 {
         font-size: 10px;
+        font-weight: 300;
     }
-
-    .flex-servicios div, .flex-tramites div, .flex-programas div{
+    .organizacion .institu-container .secre ul li {
+        margin: 5px;
+        font-size: 12px;                    
+    }
+    .services section .flex-servicios div, .flex-tramites div, .flex-programas div{
         width: 200px;
         font-weight: 300;
         font-size: 10px;
     }
 }
-
-/*funcionalidades: /* variabl8es, condicionales, funciones, bucles*/
-/*generales: /*info general como reset, las clases sueltas (ejemplo h1/h2/h3/h4), la tipografía, lo que le aplico a selectores en general en el proyecto)*/
