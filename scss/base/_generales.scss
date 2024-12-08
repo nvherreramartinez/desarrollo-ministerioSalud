@@ -1,3 +1,4 @@
+@use "funcionalidades" as *;
 
 * {
   margin: 0;
@@ -13,8 +14,8 @@ body {
   overflow-x: hidden;
 }
 h2 {
-  font-size: nth($font-size, 5);
-  color: nth($color, 3);
+  font-size: 35px;
+  color: $color-3;
   background-color: $color-1;
   width: auto;
   height: auto;
@@ -24,6 +25,6 @@ h2 {
 h3{
   font-weight: 900;
   color: $color-3;
-  background-color: nth($colores, 1);
+  background-color: $color-1;
   padding: 10px;
 }

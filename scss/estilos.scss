@@ -1,6 +1,6 @@
-@import "./base/funcionalidades";
-@import "./base/generales";
-@import "./components/header";
-@import "./components/index";
-@import "./components/footer";
-@import "./base/queries";
+@use "./base/funcionalidades" as *;
+@use "./base/generales" as *;
+@use "./components/header" as *;
+@use "./components/index" as *;
+@use "./components/footer" as *;
+@use "./base/queries" as *;

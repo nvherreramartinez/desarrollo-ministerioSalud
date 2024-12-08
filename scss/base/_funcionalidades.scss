@@ -8,8 +8,9 @@ $color-6: rgba(117, 217,244);
 $color-7: rgba(0, 0, 0, 0.3);
 
 /*listas*/
-$font-size: 10px, 15px, 18px, 25px, 30px, 35px;
-$colores: rgb(3, 168, 218), rgba(250, 61, 124, 0.974), whitesmoke;
+$border: 1px, 2px, 3px;
+$br: 5px, 10px, 15px;
+$subclases: secre, subsecre, direcciones, efectores;
 
 /*extend*/
 %button-base {
@@ -38,21 +39,3 @@ $colores: rgb(3, 168, 218), rgba(250, 61, 124, 0.974), whitesmoke;
     }
 }
 /*bucle*/
-@each $selector in $selectors {
-    #{$selector} {
-    display: flex;
-    width: 70%;
-    height: 50px;
-    border: 4px solid $color-4;
-    background-color: $color-2;
-    text-decoration: none;
-    color: $color-3;
-    margin: 15px;
-    font-weight: 500;
-    font-size: 15px;
-        &:hover {
-            background-color: $color-5;
-            border: 3px solid $color-4;
-        }
-    }
-}
