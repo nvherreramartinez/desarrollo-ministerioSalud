@@ -1,10 +1,10 @@
 /* Error: Undefined variable.
- *   ,
- * 5 |             background-color: $color-2;
- *   |                               ^^^^^^^^
- *   '
- *   scss\components\_header.scss 5:31  @use
- *   scss\estilos.scss 3:1              root stylesheet */
+ *    ,
+ * 36 |                 background-color: $color-5;
+ *    |                                   ^^^^^^^^
+ *    '
+ *   scss\components\_index.scss 36:35  @use
+ *   scss\estilos.scss 4:1              root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 5 \2502              background-color: $color-2;\d\a   \2502                                ^^^^^^^^\a   \2575 \a   scss\\components\\_header.scss 5:31  @use\a   scss\\estilos.scss 3:1              root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 36 \2502                  background-color: $color-5;\d\a    \2502                                    ^^^^^^^^\a    \2575 \a   scss\\components\\_index.scss 36:35  @use\a   scss\\estilos.scss 4:1              root stylesheet";
 }

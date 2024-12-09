@@ -1,6 +1,7 @@
-@use "./base/funcionalidades" as *;
-@use "./base/generales" as *;
-@use "./components/header" as *;
-@use "./components/index" as *;
-@use "./components/footer" as *;
-@use "./base/queries" as *;
+@use './base/funcionalidades';
+@use './base/generales';
+@use "./components/header";
+@use "./components/index";
+@use "./components/footer";
+@use "./base/queries";
+

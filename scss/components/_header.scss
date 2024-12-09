@@ -2,10 +2,10 @@
 header{
     nav{
         div{
-            background-color: $color-2;
             display: inline-block;
             text-decoration: none;
-            color: $color-3;
+            background-color: #fa3d7cf8;
+            color: whitesmoke;
             font-size: 200;
             margin: 0;
             a img{
@@ -15,7 +15,7 @@ header{
             h1{
                 font-size: 35px;
                 padding: 10px;
-                color: $color-3;
+                color: whitesmoke;
                 font-weight: 900;
                 span{
                     font-size: 35px;
