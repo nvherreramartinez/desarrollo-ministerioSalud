@@ -52,69 +52,94 @@
   </header>
   <main class="organizacion">
     <h2>Ministerio de Salud</h2>
-    <div class="minister">
-      <img class="ministro" src="https://ibb.co/f2sVdf1" alt="Ministro de Salud">
-      <h2>Sr.Ministro</h2>
-      <p class="hero-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ipsa?</p>
+    <div class="minister-form-floating" style="width: 20rem;">
+      <img src="../img/ministro.gif" class="card-img-top" alt="Ministro de Salud">
+      <h2>Sr. Ministro</h2>
       <p>El ministro de salud tiene como función principal diseñar, establecer, ejecutar y supervisar las políticas de salud de un territorio. <br>Formular, adoptar, coordinar y evaluar estrategias de promoción de la salud y la calidad de vida. 
       Prevenir y controlar enfermedades. Elaborar, ejecutar y fiscalizar programas de salud.</p>
     </div>
-    <h2>Secretarías</h2>
-    <section class="institu-container">
-    <div class="secre">
-        <ul>
-          <li>Secretaría de Salud</li>
-          <li>Secretaría de Salud Mental</li>
-          <li>Secretaría de Prevención y Asistencia de las Adicciones</li>
-          <li>Secretaría de Coordinación y Gestión Administrativa</li>
-          <li>Secretaría de Medicina Preventiva y Vinculación Territorial</li>
-          <li>Instituto de Investigación y Planificación Sanitaria</li>
-        </ul>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">Secretarías
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Dependiente de la Oficina del Ministro.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong><ul>    
+              <li>Secretaría de Salud</li>
+              <li>Secretaría de Salud Mental</li>
+              <li>Secretaría de Prevención y Asistencia de las Adicciones</li>
+              <li>Secretaría de Coordinación y Gestión Administrativa</li>
+              <li>Secretario de Medicina Preventiva y Vinculación Territorial</li>
+              <li>Instituto de Investigación y Planificación Sanitaria</li>
+            </ul></strong> 
+          </div>
+        </div>
       </div>
-    </section>
-    <h2>Sub-Secretarías</h2>
-    <section class="institu-container">
-      <div class="subsecre">
-        <ul>
-          <li>Subsecretaría de Discapacidad, Rehabilitación e Inclusión</li>
-          <li>Subsecretaría de Gestión Hospitalaria</li>
-          <li>Subsecretaría de Prevención de las Adicciones</li>
-          <li>Subsecretaría de Gestión Administrativa</li>
-          <li>Subsecretaría de Formación en Salud y Seguridad del Paciente</li>
-        </ul>
+      <div class="accordion-item">
+        <h2 class="accordion-header">Subsecretarías
+          <button class="accordion-button collapsed" color="#03bada" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Dependiente de las Secretarías.
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong><ul>    
+              <li>Subsecretaría de Discapacidad, Rehabilitación e Inclusión</li>
+              <li>Subsecretaría de Gestión Hospitalaria</li>
+              <li>Subsecretaría de Prevención de las Adicciones</li>
+              <li>Subsecretaría de Gestión Administrativa</li>
+              <li>Subsecretaría de Formación en Salud y Seguridad del Paciente</li>
+            </ul></strong> 
+          </div>
+        </div>
       </div>
-    </section>
-    <h2>Direcciones</h2>
-    <section class="institu-container">
-      <div class="direcciones">
-        <ul>
-          <li>Dirección General de Compras y Contrataciones</li>
-          <li>Dirección General de Gestión del Capital Humano</li>
-          <li>Dirección General de Protección de la Embarazada y su Bebé</li>
-          <li>Dirección General de Asuntos Legales</li>
-          <li>Dirección General de Hospitales de Capital</li>
-          <li>Dirección General de Acción Social</li>
-          <li>Dirección General de Hospitales del Interior</li>
-          <li>Dirección General de Primer Nivel de Atención</li>
-          <li>Dirección General de Capacitación y Formación de Salud</li>
-          <li>Dirección General de Sistemas de Gestión Hospitalaria</li>
-          <li>Dirección General de Hospitales de Capital</li>
-          <li>Dirección General de Planificación Estratégica</li>
-          <li>Dirección General de Infraestructura y Equipamiento Sanitario</li>
-          <li>Dirección General de Planificación Sanitaria</li>
-        </ul>
+      <div class="accordion-item">
+        <h2 class="accordion-header">Direcciones
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Dependiente de las Secretarías.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong><ul>    
+              <li>Dirección General de Compras y Contrataciones</li>
+              <li>Dirección General de Gestión del Capital Humano</li>
+              <li>Dirección General de Protección de la Embarazada y su Bebé</li>
+              <li>Dirección General de Asuntos Legales</li>
+              <li>Dirección General de Hospitales de Capital</li>
+              <li>Dirección General de Acción Social</li>
+              <li>Dirección General de Hospitales del Interior</li>
+              <li>Dirección General de Primer Nivel de Atención</li>
+              <li>Dirección General de Capacitación y Formación de Salud</li>
+              <li>Dirección General de Sistemas de Gestión Hospitalaria</li>
+              <li>Dirección General de Hospitales de Capital</li>
+              <li>Dirección General de Planificación Estratégica</li>
+              <li>Dirección General de Infraestructura y Equipamiento Sanitario</li>
+              <li>Dirección General de Planificación Sanitaria</li>
+            </ul></strong> 
+          </div>
+        </div>
       </div>
-    </section>
-    <h2>Efectores</h2>
-    <section class="institu-container">
-      <div class="efectores">
-        <ul>
-          <li>Hospitales Capital</li>
-          <li>Hospitales Interior</li>
-          <li>Centros de Atención Primaria de la Salud</li>
-        </ul>
+      <div class="accordion-item">
+        <h2 class="accordion-header">Efectores
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Hospitales y centros de Salud clasificados según el nivel de atención. 
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong><ul>    
+              <li>Hospitales Capital</li>
+              <li>Hospitales Interior</li>
+              <li>Centros de Atención Primaria de la Salud</li>
+            </ul></strong>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
   </main>
   <footer>
     <h4>Ministerio de Salud</h4>
